@@ -1,0 +1,13 @@
+// Core variables and mixins
+@import "./main/variables.scss";
+@import "./main/mixins.scss";
+// Global CSS
+@import "./main/global.scss";
+// Components
+@import "./styles/header.scss";
+@import "./styles/article.scss";
+@import "./styles/promo.scss";
+@import "./styles/navbar.scss";
+@import "./styles/footer.scss";
+// Shares
+@import "./styles/common.scss";

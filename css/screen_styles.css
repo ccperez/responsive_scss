@@ -1,0 +1,106 @@
+body {
+  color: #575c7a;
+  line-height: 1.53em;
+  font-family: Arial;
+  font-size: 14px;
+  background: #515673 url(../images/background_gradient.jpg) repeat-x 0px 0px;
+}
+
+.page {
+  max-width: 980px;
+  margin: 0px auto;
+  position: relative;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 1.7em;
+  margin: 0 0 1em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0 0 1em 0;
+}
+
+a {
+  color: #de9000;
+}
+a :hover {
+  color: #009eff;
+}
+
+h1 {
+  color: #de9000;
+  font-weight: normal;
+  font-size: 2em;
+  margin: 0 0 0.5em 0;
+}
+
+p {
+  margin: 0 0 0.75em 0;
+}
+
+.promo {
+  background-repeat: no-repeat;
+}
+.promo h3 {
+  font-size: 1.1em;
+}
+.promo p {
+  line-height: 1.2em;
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+
+.promo.one {
+  background: url("../images/promo_1.jpg");
+}
+
+.promo.two {
+  background: url("../images/promo_2.jpg");
+}
+
+.promo.three {
+  background: url("../images/promo_3.jpg");
+}
+
+a.cta {
+  font-size: 0.9em;
+  margin: 0.5em 0 0 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0px 12px 0px 0px;
+  background: url(../images/cta_arrow.png) no-repeat right 0px;
+}
+a.cta :hover {
+  background-position: right -50px;
+}
+
+nav a {
+  color: #f5a06e;
+  font-size: 0.9em;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+footer {
+  color: #9ba0bd;
+  font-size: 0.85em;
+  background-color: #575c7a;
+  padding: 10px 10px 10px 0;
+}
+
+.clear-fix {
+  clear: both;
+  line-height: 1px;
+}
+
+/*# sourceMappingURL=screen_styles.css.map */

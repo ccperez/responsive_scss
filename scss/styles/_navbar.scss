@@ -1,0 +1,8 @@
+nav a {
+  color: $mn_naColor;
+  font-size: .9em;
+  display: inline-block;
+  @include text-transform-decoration(uppercase, none);
+}
+
+nav a:hover { color: $mn_pgColor; }

@@ -1,0 +1,18 @@
+body {
+  color: $mn_primary;
+  line-height: 1.53em;
+  font-family: Arial;
+  font-size: 14px;
+  background: #515673 url(../images/background_gradient.jpg) repeat-x 0px 0px;
+}
+
+.page {
+  max-width: 980px;
+  margin: 0px auto;
+  position: relative;
+  background-color: $mn_pgColor;
+}
+
+h2 { @include fontsize_margin (1.7em, 0 0 1em 0); }
+
+h3 { @include fontsize_margin (1.5em, 0 0 1em 0); }

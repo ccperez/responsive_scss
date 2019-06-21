@@ -1,0 +1,30 @@
+@mixin fontsize_margin($fs, $am) {
+  font-size: $fs; margin: $am;
+}
+
+@mixin text-transform-decoration($t, $d) {
+  text-decoration: $d; text-transform: $t; font-weight: bold;
+}
+
+@mixin promo-image($img) {
+  background: url("../images/"+ $img +".jpg");
+}
+
+@mixin header_background_image($h, $img, $attr) {
+  height: $h;
+  background: url("../images/"+ $img +".jpg") $attr;
+}
+
+@mixin header_a_logo($w, $h, $t, $r, $img) {
+  width: $w;
+  height: $h;
+  top: $t;
+  right: $r;
+  background-image: url("../images/"+ $img +".png");
+}
+
+@mixin border_radius($r) {
+  -moz-border-radius: $r;
+  -webkit-border-radius: $r;
+  border-radius: $r;
+}

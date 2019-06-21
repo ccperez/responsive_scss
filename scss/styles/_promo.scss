@@ -1,0 +1,29 @@
+.promo {
+  background-repeat: no-repeat;
+  h3 { font-size: 1.1em; }
+  p {
+    line-height: 1.2em;
+    font-size: .9em;
+    margin-bottom: .5em;
+  }
+}
+
+.promo.one {
+  @include promo-image("promo_1")
+}
+
+.promo.two {
+  @include promo-image("promo_2")
+}
+
+.promo.three {
+  @include promo-image("promo_3")
+}
+
+a.cta {
+  @include fontsize_margin (.9em, .5em 0 0 0);
+  @include text-transform-decoration(uppercase, none);
+  padding: 0px 12px 0px 0px;
+  background: url(../images/cta_arrow.png) no-repeat right 0px;
+    :hover { background-position: right -50px; }
+}

@@ -1,0 +1,7 @@
+h1 {
+  color: $mn_a_Color;
+  font-weight: normal;
+  @include fontsize_margin (2em, 0 0 .5em 0);
+}
+
+p { margin: 0 0 .75em 0; }
